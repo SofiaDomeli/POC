@@ -18,7 +18,7 @@ def note_repr(key):
     }
 
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/5000", methods=["GET", "POST"])
 def notes_list():
     """
     List or create notes.
